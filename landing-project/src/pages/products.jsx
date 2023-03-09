@@ -18,11 +18,9 @@ const Products = () => {
 
   useEffect(() => {
     gsap.from(bodyRef, {
-      css: {
         visibility: "visible",
         duration: 0.5,
         transition: Power3.easeInOut,
-      },
     });
     gsap.to(cartoonImageRef, {
       duration: 1,
