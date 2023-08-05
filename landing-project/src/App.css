@@ -333,20 +333,7 @@ a:hover {
   background-color: var(--Off-White);
   position: relative;
 }
-@keyframes boat {
-  10% {
-    width: 42%;
-    transition: 1s ease-in-out;
-  }
-  50% {
-    width: 43%;
-    transition: 1s ease-in-out;
-  }
-  100% {
-    width: 40%;
-    transition: 1s ease-in-out;
-  }
-}
+
 .main--section::after {
   content: "";
   position: absolute;

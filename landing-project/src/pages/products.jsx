@@ -17,7 +17,7 @@ const Products = () => {
   let timeline = gsap.timeline();
 
   useEffect(() => {
-    gsap.to(bodyRef, {
+    gsap.to (bodyRef, {
         visibility: "visible",
         duration: 0.5,
         transition: Power3.easeInOut,
